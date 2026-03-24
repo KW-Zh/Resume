@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>张凯文｜推免展示主页</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">张凯文 · 推免展示主页</div>
+      <nav class="nav-links">
+        <a href="#education">教育背景</a>
+        <a href="#research">科研成果</a>
+        <a href="#projects">科创项目</a>
+        <a href="#competitions">竞赛实践</a>
+        <a href="#skills">个人技能</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn-link" href="resume.pdf" target="_blank" rel="noopener">下载简历</a>
+        <button class="btn" onclick="window.print()">打印/导出PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card hero reveal">
+      <div>
+        <h1 class="name">张凯文</h1>
+        <p class="subtitle">西北农林科技大学 土木工程本科｜辅修软件工程（人工智能方向）</p>
+        <p class="positioning">本科阶段专注于混凝土界面力学性能和材料力学性能的研究，仿真方法熟练，初步具备独立研究的能力。</p>
+
+        <div class="chips">
+          <span class="chip">📱 13813485702</span>
+          <span class="chip">✉️ xbnlkjdxzkw@nwafu.edu.cn</span>
+          <span class="chip">✉️ zhangkw1122@163.com</span>
+        </div>
+        <div class="chips">
+          <span class="chip">22岁</span>
+          <span class="chip">江苏徐州</span>
+          <span class="chip">中共预备党员</span>
+          <span class="chip">2023级本科生</span>
+          <span class="chip">预计毕业：2027.06</span>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><b data-count="3.61">0</b><span>GPA / 4.00</span></div>
+          <div class="stat"><b data-count="8">0</b><span>专业排名（8/56）</span></div>
+          <div class="stat"><b data-count="5">0</b><span>论文（含在投）</span></div>
+          <div class="stat"><b data-count="7">0</b><span>专利/软著</span></div>
+        </div>
+      </div>
+      <img class="photo" src="photo.jpg" alt="张凯文证件照" />
+    </section>
+
+    <section class="card reveal" id="education">
+      <h2>教育背景</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="head">
+            <div>西北农林科技大学｜水利与建筑学院｜土木工程（本科）</div>
+            <div class="meta">2023.09 - 2027.06（预计）</div>
+          </div>
+          <div class="desc">GPA：3.61/4.00（87.63/100）｜专业排名：8/56（前15%）｜房建方向：Rank 3｜CET-6：479</div>
+          <div class="desc">主修课程：材料力学（96）、弹性力学与有限元（95）、混凝土结构设计原理（97）、计算机绘图（97）等。</div>
+          <div class="edu-actions">
+            <button class="ghost-btn" data-preview="materials/education/transcript_civil.jpg">成绩单预览</button>
+            <a class="ghost-link" target="_blank" href="materials/education/transcript_civil.jpg" rel="noopener">原图打开 ↗</a>
+          </div>
+        </div>
+
+        <div class="t-item">
+          <div class="head">
+            <div>西北农林科技大学｜信息与工程学院｜软件工程（人工智能方向，辅修）</div>
+            <div class="meta">2024.09 - 至今</div>
+          </div>
+          <div class="desc">辅修课程：数据挖掘（94）、软件工程（88）、数据结构与算法分析（89）、Python应用技术（87）等。</div>
+          <div class="edu-actions">
+            <button class="ghost-btn" data-preview="materials/education/transcript_minor.jpg">成绩单预览</button>
+            <a class="ghost-link" target="_blank" href="materials/education/transcript_minor.jpg" rel="noopener">原图打开 ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card reveal" id="research">
+      <h2>科研成果</h2>
+      <p class="section-lead">论文卡片仅展示题目、本人排序与期刊信息，点击进入详情页查看贡献说明、关键结果与摘要。</p>
+
+      <div class="paper-grid">
+        <a class="paper-card" href="papers/p1.html">
+          <p class="title">Two-dimensional rib-scale simulation of the bond-slip mechanism between rebars and recycled aggregate concrete</p>
+          <div class="badges">
+            <span class="badge">本人排序：第一作者</span>
+            <span class="badge">Structural Concrete</span>
+            <span class="badge">SCI 中科院三区</span>
+          </div>
+        </a>
+
+        <a class="paper-card" href="papers/p2.html">
+          <p class="title">Study on the bond-slip mechanism between crescent ribbed rebar and recycled aggregate concrete: rib-scale simulation and theoretical analysis</p>
+          <div class="badges">
+            <span class="badge">本人排序：第二作者</span>
+            <span class="badge">Journal of Building Engineering</span>
+            <span class="badge">SCI 中科院二区</span>
+          </div>
+        </a>
+
+        <a class="paper-card" href="papers/p3.html">
+          <p class="title">Study on the influence of bond-slip behavior on the bending performance of reinforced recycled aggregate concrete beams</p>
+          <div class="badges">
+            <span class="badge">本人排序：第三作者</span>
+            <span class="badge">The Journal of Adhesion</span>
+            <span class="badge">SCI 中科院三区</span>
+          </div>
+        </a>
+
+        <a class="paper-card" href="papers/p4.html">
+          <p class="title">The stress-strain relationship of pebble concrete mixed with recycled brick aggregate under uniaxial compression</p>
+          <div class="badges">
+            <span class="badge">本人排序：第四作者</span>
+            <span class="badge">Under Review</span>
+          </div>
+        </a>
+
+        <a class="paper-card" href="papers/p5.html">
+          <p class="title">Soil structure determines erosion mechanisms: revealing differences in slope erosion and hydraulics of spoil heaps composed of sandy soil and red soil</p>
+          <div class="badges">
+            <span class="badge">本人排序：第二作者</span>
+            <span class="badge">Submitted</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="content-block">
+        <h3>专利 / 软件著作权</h3>
+        <ul class="list-clean">
+          <li>张凯文，刘彪. <a class="entry-link ext" target="_blank" rel="noopener" href="materials/patents/patent_recycled_method.pdf">一种再生骨料混凝土性能改善方法</a>（发明专利，已公开，第一发明人）</li>
+          <li>张凯文，张庆宇，刘彪. <a class="entry-link ext" target="_blank" rel="noopener" href="materials/patents/patent_vibration_platform.pdf">一种混凝土振动平台</a>（实用新型，已受理，第一发明人）</li>
+          <li>张凯文，张庆宇，骆汉，陈东凯. <a class="entry-link ext" target="_blank" rel="noopener" href="materials/patents/patent_slope_monitoring.pdf">一种边坡形变位移监测系统</a>（实用新型，已受理）</li>
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/softwares/soft_01_mix_design_predictor.pdf">《基于配合比的混凝土关键力学指标智能预测软件 V1.0》</a>（登记号：2025SR2400720，第一开发者）</li>
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/softwares/soft_02_90deg_anchor_2d.pdf">《90° 弯折钢筋与混凝土的锚固失效过程二维精细仿真辅助软件 V1.0》</a>（登记号：2025SR2388664，第一开发者）</li>
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/softwares/soft_03_bond_3d_ribscale.pdf">《钢筋再生混凝土粘结性能三维肋尺度精细仿真辅助软件 V1.0》</a>（登记号：2025SR0644076，第二开发者）</li>
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/softwares/soft_04_anchor_2d_ribscale.pdf">《二维肋尺度的钢筋混凝土锚固性能仿真辅助软件 V1.0》</a>（登记号：2025SR1031363，第二开发者）</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card reveal" id="projects">
+      <h2>科创项目</h2>
+      <p class="section-lead">项目卡片点击后进入详情页，展示角色定位、核心工作与成果产出。</p>
+      <div class="project-grid">
+        <a class="project-card" href="projects/r1.html">
+          <p class="title">90° 弯折钢筋锚固性能精细化仿真研究</p>
+          <div class="badges">
+            <span class="badge">国家级大创</span>
+            <span class="badge">项目负责人</span>
+            <span class="badge">2024.12 - 至今</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="projects/r2.html">
+          <p class="title">考虑多界面传力作用的组合结构压力管道研究</p>
+          <div class="badges">
+            <span class="badge">国家级大创</span>
+            <span class="badge">核心成员</span>
+            <span class="badge">2024.12 - 至今</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="projects/r3.html">
+          <p class="title">超高性能混凝土抑收缩特性研究</p>
+          <div class="badges">
+            <span class="badge">省级大创</span>
+            <span class="badge">核心成员</span>
+            <span class="badge">2023.12 - 至今</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="card grid-2 reveal" id="competitions">
+      <div>
+        <h2>学科竞赛</h2>
+        <ul class="list-clean">
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/contests/innovation_competition.pdf">中国国际大学生创新大赛（2025）陕西赛区｜陕西省银奖</a></li>
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/contests/math_modeling.jpg">中国大学生数学建模竞赛（2024）｜省级二等奖</a></li>
+          <li>全国大学生数学竞赛（2024）｜省级三等奖</li>
+        </ul>
+      </div>
+      <div>
+        <h2>实践与荣誉</h2>
+        <ul class="list-clean">
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/practice/agri_expo.jpg">中国杨凌农业高新科技成果博览会志愿者（国家级）</a></li>
+          <li><a class="entry-link ext" target="_blank" rel="noopener" href="materials/practice/yangling_marathon.jpg">杨凌马拉松志愿者（市级）</a></li>
+          <li>暑期三下乡（校级）</li>
+          <li>回访母校（校级）</li>
+          <li>学业奖学金：专业一等奖学金</li>
+          <li>荣誉称号：优秀共青团员、优秀大学生</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card reveal" id="skills">
+      <h2>个人技能</h2>
+      <div class="grid-3">
+        <article class="mini-card">
+          <p class="title">科研写作</p>
+          <p class="desc">具备良好的中英文论文撰写能力，参与多篇 SCI 论文撰写与投稿，熟悉文献检索与阅读分析。</p>
+        </article>
+        <article class="mini-card">
+          <p class="title">数据分析</p>
+          <p class="desc">掌握 Python、SPSS 等数据分析工具，具备数据处理与统计分析能力。</p>
+        </article>
+        <article class="mini-card">
+          <p class="title">数值模拟与科研绘图</p>
+          <p class="desc">熟练使用 Abaqus 进行有限元分析与建模，熟练使用 Origin 进行科研数据可视化与绘图。</p>
+        </article>
+      </div>
+    </section>
+
+    <div class="footer">© 张凯文 · 本页面用于推免材料展示</div>
+  </main>
+
+  <div class="img-modal" id="imgModal">
+    <button class="close" id="closeModal">×</button>
+    <img id="modalImg" alt="材料预览" />
+  </div>
+
+  <button class="back-top" id="backTop" title="返回顶部">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
